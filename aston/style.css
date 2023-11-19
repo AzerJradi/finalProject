@@ -1,0 +1,117 @@
+img{
+    width: 300px;
+}
+.navbare{
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    width:65%;
+    background-color: #FDE5D4;
+    height: 100px;
+    width:65%;
+    margin: 0 auto;
+  }
+  nav ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+  }
+  nav a {
+    text-decoration:none ;
+    color: #26577C ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:25px ;
+    line-height:250%;
+    padding-left: 40px;
+  }
+
+
+  
+.para{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 120px ;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #272343;
+    background-color: #F2F2F2;
+    padding: 10px;
+    border: 1px solid #D0D0D0;
+}
+.para:hover{
+        text-decoration: underline;
+}
+.allCards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.allCards >*{
+    margin: 10px 0;
+}
+.card{
+    padding: 10px;
+    background-color: #dfd3c3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 8px;
+    width: 23%;
+    height: 500px;
+
+}
+.imgpro img{
+    object-fit: contain;
+
+}
+.title{
+    display: flex;
+    flex-direction: column;
+}
+.title h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.title span{
+    font-size: 40px;
+    color: gray;
+    text-align: center;
+}
+.addtocart button{
+    font-size: 30px;
+    border: none;
+    outline: none;
+    background-color:#42b883;
+    color: #FCF9E6;
+    width: 60%;
+    height: 80%;
+    margin: 0 155px;
+    border-radius: 8px;
+    padding: 2px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    position: relative;
+    right: 80px;
+    top: 17px;
+    cursor: pointer;
+}
+.addtocart button:hover{
+    background-color:#7dd87d ;
+    transition: 1s;
+}
+.fvrt{
+  width: 10%;
+}

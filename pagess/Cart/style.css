@@ -1,0 +1,115 @@
+img{
+  width: 300px;
+}
+:root {
+    --beige: #FDE5D4;
+    --blue: #26577C;
+    --black: #141010;
+  } 
+.login{
+position: relative;
+right: 670px;
+bottom: 10px;
+border: transparent;
+border-radius: 12px;
+width: 100px;
+height: 40px;
+background-color: var(--beige);
+color: black;
+font-size: 24Px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.login:hover{
+  background-color: var(--blue);
+}  
+/* my website all colors */  
+body{
+  width:65%;
+  margin: 0 auto;
+}
+
+/*start navbare*/
+.navbare{
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  width:65%;
+  background-color: var(--beige);
+  height: 100px;
+}
+nav ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+nav a {
+  text-decoration:none ;
+  color:var(--blue) ;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size:25px ;
+  line-height:250%;
+  padding-left: 40px;
+}
+#cart{
+  padding-right: 20px;
+}
+
+
+
+/* style cards of shoppoing */
+
+.cardShopCar{
+  margin: 15% auto !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cardShopCar>*{
+  margin-bottom: 20px;
+}
+.card{
+  background-color: whitesmoke;
+  height: 200px;
+  width: 650px;
+  border-radius: 20px;
+}
+.imgg{
+  border-radius: 12px;
+  height: 200px;
+}
+h2{
+  margin-left: 340px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  letter-spacing: 2px;
+  position: relative;
+  bottom: 180px;
+}
+span{
+  margin-left: 350px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 28px;
+  letter-spacing: 2px;
+  position: relative;
+  bottom: 185px
+}
+.input{
+  align-items: center;
+  padding-left: 8Px;
+  width: 20px;
+}
+.quant{
+  margin-left: 340px;
+  position: relative;
+  bottom: 160Px;
+}
+.aa{
+  width: 30px;
+  height: 30px;
+}

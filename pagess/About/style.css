@@ -1,0 +1,85 @@
+img{
+    width: 300px;
+}
+body{
+    background-color: white;
+}
+:root {
+    --beige: #FDE5D4;
+    --blue: #26577C;
+    --black: #141010;
+  } 
+.login{
+position: relative;
+right: 670px;
+bottom: 10px;
+border: transparent;
+border-radius: 12px;
+width: 100px;
+height: 40px;
+background-color: var(--beige);
+color: black;
+font-size: 24Px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.login:hover{
+  background-color: var(--blue);
+}  
+/* my website all colors */  
+body{
+  width:65%;
+  margin: 0 auto;
+}
+
+/*start navbare*/
+.navbare{
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  width:65%;
+  background-color: var(--beige);
+  height: 100px;
+}
+nav ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+nav a {
+  text-decoration:none ;
+  color:var(--blue) ;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size:25px ;
+  line-height:250%;
+  padding-left: 40px;
+}
+#cart{
+  padding-right: 20px;
+}
+/*end navbare*/
+.para{
+    width: 80%;
+    background-color: var(--beige);
+    margin-left: 10%;
+    margin-top: 100px;
+}
+p { color: black;
+    font-family: 'Raleway',sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px; 
+    margin: 0 0 24px; 
+    letter-spacing: 2px; 
+    padding: 10px 20px; }
+h1{
+    margin-left: 45%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    letter-spacing: 3px;
+}

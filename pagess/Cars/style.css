@@ -1,0 +1,117 @@
+:root {
+    --beige: #FDE5D4;
+    --blue: #26577C;
+    --black: #141010;
+  } 
+.img{
+    width: 300px;
+}  
+/* my website all colors */  
+body{
+  width:65%;
+  margin: 0 auto;
+  background-color: white;
+}
+#para{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    letter-spacing: 2Px;
+    line-height: 1.5;
+    margin-top: 120px ;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #272343;
+    background-color: #F2F2F2;
+    padding: 10px;
+    border: 1px solid #D0D0D0;
+    background-color: transparent;
+    border: transparent;
+}
+#para:hover{
+    text-decoration: underline;
+}
+/*start navbare*/
+.navbare{
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  width:65%;
+  background-color: var(--beige);
+  height: 100px;
+}
+nav ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+nav a {
+  text-decoration:none ;
+  color:var(--blue) ;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size:25px ;
+  line-height:250%;
+  padding-left: 40px;
+}
+#cart{
+  padding-right: 20px;
+}
+/*end navbare*/
+.about_us{
+  margin-bottom: -70px;
+}
+
+.about{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 100px;
+  color: var(--black);
+  text-align: justify;
+  font-size: 20px;
+}
+/* this is for the paragraphes */
+h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 200;
+  color:var(--blue);
+  font-size: 50px;
+  margin-bottom: 2px;
+}
+
+
+#bugatti{
+  padding-right: 100px;
+  padding-left: 40px;
+}
+#audi{
+  padding-left: 45px;
+  padding-right: 80px;
+  padding-top: 50px;
+}
+#aston{
+  margin-bottom: 20px;
+}
+#special{
+  margin-bottom: 90px;
+  padding-left: 50px;
+  padding-right: 90px;
+
+}
+#bmw{
+  margin-bottom: 100px;
+
+}
+#pagani{
+
+}
+#porshe{
+  padding-left: 10px;
+}

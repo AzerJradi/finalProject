@@ -1,0 +1,124 @@
+:root{
+    --green:#60e550
+}
+body{
+    transition: background 0.5s ease;
+    background-color: var(--green);
+}
+body:hover {
+    background-color: #e74c3c; 
+}
+.signin{
+    background-color: #d3d6db;
+    width: 30%;
+    height: 380px;
+    margin: 100px 35% ;
+    padding-left: 30px;
+    border-radius: 16px;
+}
+h2{
+    margin-left: 40%;
+    padding-top: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.input{
+    border: transparent;
+    width: 200Px;
+    height: 20px;
+}
+#iput{
+    background-color: white;
+    width: 205px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+#imput{
+    margin-bottom: 10Px;
+}
+#immput{
+    margin-bottom: 10Px;
+}
+#pass{
+    margin-bottom: 9px;
+}
+#input{
+    margin-bottom: 10Px;
+}
+#innput{
+    width: 203px;
+    height: 25px;
+}
+.choose{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-left: 10px;
+}
+#choose{
+    position: relative;
+    bottom: 15px;
+}
+.href{
+    text-decoration: none;
+    color: green;
+    padding-right: 35px;
+    padding-left: 10px;
+    position: relative;
+    top: 5px;
+}
+.href:hover{
+    color: ;
+    text-decoration: underline;
+}
+#href{
+    text-decoration: none;
+    color: green;
+    padding-right: 35px;
+    position: relative;
+    top: 5px;
+}
+#href:hover{
+    color: ;
+    text-decoration: underline;
+}
+.btn {
+    background: linear-gradient(var(--green));
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 15px;
+    margin-left: 15%;
+    font-size: 24px;
+    border: transparent;
+    background-color: var(--green);
+    width: 320px;
+    height: 50px;
+    border-radius: 20px;
+  }
+  
+  .btn:hover {
+    background: linear-gradient(144deg, #e74c3c , 20%,#e74c3c 50%,#e74c3c );
+    color: rgb(255, 255, 255);
+    padding: 16px !important;
+    cursor: pointer;
+    transition: all 0.4s ease;
+  }
+  
+  /* *{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.allAni{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ani{
+    width: 42.5px;
+    height: 42.25px;
+    border: 1px solid green;
+}
+.ani:hover{
+    background-color: green;
+}   */

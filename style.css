@@ -1,0 +1,149 @@
+:root {
+    --beige: #FDE5D4;
+    --blue: #26577C;
+    --black: #141010;
+  } 
+.login{
+position: relative;
+right: 670px;
+bottom: 10px;
+border: transparent;
+border-radius: 12px;
+width: 100px;
+height: 40px;
+background-color: var(--beige);
+color: black;
+font-size: 24Px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.btnn{
+  font-size: 24px;
+  color: gray;
+  text-decoration: none;
+}
+.btnn:hover{
+  text-decoration: underline;
+  color: darkgray;
+}
+.login:hover{
+  background-color: var(--blue);
+}  
+/* my website all colors */  
+body{
+  width:65%;
+  margin: 0 auto;
+}
+
+/*start navbare*/
+.navbare{
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  width:65%;
+  background-color: var(--beige);
+  height: 100px;
+}
+nav ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+nav a {
+  text-decoration:none ;
+  color:var(--blue) ;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:25px ;
+  line-height:250%;
+  padding-left: 40px;
+}
+#cart{
+  padding-right: 20px;
+}
+/*end navbare*/
+.about_us{
+  margin-bottom: -70px;
+}
+
+.about{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  margin: 0 auto;
+  color: var(--black);
+  text-align: justify;
+  font-size: 20px;
+  padding-bottom: 10px;
+  margin-top: 100px;
+}
+/* this is for the paragraphes */
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  color:var(--blue);
+  font-size: 50px;
+  margin-bottom: 2px;
+}
+
+
+#bugatti{
+  padding-right: 100px;
+  padding-left: 40px;
+}
+#audi{
+  padding-left: 45px;
+  padding-right: 80px;
+  padding-top: 50px;
+}
+#aston{
+  margin-bottom: 20px;
+}
+#special{
+  margin-bottom: 90px;
+  padding-left: 50px;
+  padding-right: 90px;
+
+}
+#bmw{
+  margin-bottom: 100px;
+
+}
+#pagani{
+
+}
+#porshe{
+  padding-left: 10px;
+}
+body{
+  background-color: white;
+}
+.new{
+
+  position: relative;
+  bottom: 50px;
+}
+.aboutt{
+  position: relative;
+  bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  margin: 0 auto;
+  color: var(--black);
+  text-align: justify;
+  font-size: 20px;
+  padding-bottom: 10px;
+  margin-top: 100px;
+}
+.paragraphs{
+  position: relative;
+  bottom: 100px;
+}
